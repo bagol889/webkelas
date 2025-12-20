@@ -5,7 +5,8 @@ export const CLASS_DATA: ClassInfo = {
   name: "XII TJKT 1",
   description: "Sebuah komunitas belajar yang berdedikasi tinggi, menjunjung tinggi kebersamaan, dan bertekad mengukir prestasi gemilang demi masa depan yang cerah.",
   schoolName: "SMK Tiara Nusa",
-  schoolLogo: "https://i.ibb.co.com/3yG4JHXP/images-transfer-2025-12-18-221632.jpg/200/200",
+  schoolLogo: "https://i.ibb.co.com/QFbGJM1V/IMG-20251219-WA0020.jpg/200/200",
+  logo: "https://i.ibb.co.com/DH3KJ0mQ/IMG-20251219-WA0021.jpg",
   generation: "Angkatan 2026"
 };
 
