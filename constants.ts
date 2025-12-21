@@ -1,4 +1,3 @@
-
 import { Person, ClassInfo } from './types';
 
 export const CLASS_DATA: ClassInfo = {
@@ -7,7 +6,8 @@ export const CLASS_DATA: ClassInfo = {
   schoolName: "SMK Tiara Nusa",
   schoolLogo: "https://i.ibb.co.com/QFbGJM1V/IMG-20251219-WA0020.jpg/200/200",
   logo: "https://i.ibb.co.com/DH3KJ0mQ/IMG-20251219-WA0021.jpg",
-  generation: "Angkatan 2026"
+  generation: "Angkatan 2026",
+  classPhoto: "https://i.ibb.co.com/LD0mvzXy/1766249886753.jpg"
 };
 
 export const TEACHER: Person = {
