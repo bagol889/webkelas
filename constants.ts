@@ -10,12 +10,38 @@ export const CLASS_DATA: ClassInfo = {
   classPhoto: "https://i.ibb.co.com/LD0mvzXy/1766249886753.jpg"
 };
 
+// --- TAMBAHKAN BAGIAN INI (BISA DIEDIT SESUKA HATI) ---
+export const STATS = [
+  { label: "Warga Kelas", value: "29" },
+  { label: "Pasangan Cinlok", value: "3" },
+  { label: "Laporan BK", value: "6" },
+  { label: "Solidaritas", value: "100%" },
+];
+// ---------------------------------------------------
+
 export const TEACHER: Person = {
   id: "t1",
   name: "Pedro Jose Antonio, S.Kom",
   role: "Wali Kelas",
   photo: "https://i.ibb.co.com/qLSLHh5B/474124685-1826170598230526-7965165961095894941-n-heic.jpg/600/800",
   motto: "Pendidikan adalah tiket ke masa depan, hari esok dimiliki oleh orang-orang yang mempersiapkannya hari ini.",
+};
+
+export const ORGANIZATION = {
+  ketua: { name: "Muhammad Alviansyah", role: "Ketua Kelas" },
+  wakil: { name: "Destriawan Althaf Rabbani", role: "Wakil Ketua Kelas" },
+  sekretaris: [
+    { name: "Chelsea Kayla Manik", role: "Sekretaris 1" },
+    { name: "Muhammad Aditya Pratama", role: "Sekretaris 2" }
+  ],
+  bendahara: [
+    { name: "Delia Anggraini Setiawan", role: "Bendahara" }
+  ],
+  seksi: [
+    { label: "Seksi Kebersihan", names: ["Mudita Desca Ardya Pramesti"] },
+    { label: "Seksi Agama", names: ["Awan Dzahran Arifin", "Mardiansyah Bactiar Affat", "Nasywa Athaya Yasmine R.", "Jhon Hendrico Purba"] },
+    { label: "Seksi Keamanan", names: ["Akhdaan Allif Arsalan"] }
+  ]
 };
 
 export const STUDENTS: Person[] = [
