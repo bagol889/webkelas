@@ -1,7 +1,7 @@
 {
   "name": "class-portal by satrio",
   "private": true,
-  "version": "2.5.9",
+  "version": "2.9.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
