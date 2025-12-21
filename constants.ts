@@ -10,14 +10,12 @@ export const CLASS_DATA: ClassInfo = {
   classPhoto: "https://i.ibb.co.com/LD0mvzXy/1766249886753.jpg"
 };
 
-// --- TAMBAHKAN BAGIAN INI (BISA DIEDIT SESUKA HATI) ---
 export const STATS = [
   { label: "Warga Kelas", value: "29" },
   { label: "Pasangan Cinlok", value: "3" },
   { label: "Laporan BK", value: "6" },
   { label: "Solidaritas", value: "100%" },
 ];
-// ---------------------------------------------------
 
 export const TEACHER: Person = {
   id: "t1",
@@ -28,19 +26,19 @@ export const TEACHER: Person = {
 };
 
 export const ORGANIZATION = {
-  ketua: { name: "Muhammad Alviansyah", role: "Ketua Kelas" },
-  wakil: { name: "Destriawan Althaf Rabbani", role: "Wakil Ketua Kelas" },
+  ketua: { name: "Muhammad Alviansyah", role: "Ketua Kelas", motto: "Siap memimpin dengan hati" },
+  wakil: { name: "Destriawan Althaf Rabbani", role: "Wakil Ketua Kelas", motto: "Bersama kita kuat" },
   sekretaris: [
-    { name: "Chelsea Kayla Manik", role: "Sekretaris 1" },
-    { name: "Muhammad Aditya Pratama", role: "Sekretaris 2" }
+    { name: "Chelsea Kayla Manik", role: "Sekretaris 1", motto: "Tulisan Bagus Tapi Jarang Nulis" },
+    { name: "Muhammad Aditya Pratama", role: "Sekretaris 2", motto: "Catat semua kenangan" }
   ],
   bendahara: [
-    { name: "Delia Anggraini Setiawan", role: "Bendahara" }
+    { name: "Delia Anggraini Setiawan", role: "Bendahara", motto: "Si Paling Galak Kalau Belum Bayar" }
   ],
   seksi: [
-    { label: "Seksi Kebersihan", names: ["Mudita Desca Ardya Pramesti"] },
-    { label: "Seksi Agama", names: ["Awan Dzahran Arifin", "Mardiansyah Bactiar Affat", "Nasywa Athaya Yasmine R.", "Jhon Hendrico Purba"] },
-    { label: "Seksi Keamanan", names: ["Akhdaan Allif Arsalan"] }
+    { label: "Seksi Kebersihan", names: ["Mudita Desca Ardya Pramesti"], mottos: ["Kebersihan sebagian dari iman"] },
+    { label: "Seksi Agama", names: ["Awan Dzahran Arifin", "Mardiansyah Bactiar Affatt", "Nasywa Athaya Yasmine R.", "Jhon Hendrico Purba"], mottos: ["Berdoa dan berusaha", "Iman kuat mental baja", "Selalu bersyukur", "Jaga toleransi"] },
+    { label: "Seksi Keamanan", names: ["Akhdaan Allif Arsalan"], mottos: ["Aman terkendali"] }
   ]
 };
 
@@ -74,4 +72,40 @@ export const STUDENTS: Person[] = [
   { id: "s27", name: "Awan Dzahran Arifin", role: "Siswa", photo: "https://i.ibb.co.com/Z6zJMjt3/Awan-Dzahran-Arifin.jpg/400/400" },
   { id: "s28", name: "Kayla Sira Sabila", role: "Siswa", photo: "https://i.ibb.co.com/99P5WtXN/Kayla-Sira-Sabila.jpg/400/400" },
   { id: "s29", name: "Mudita Desca Ardya Pramesti", role: "Siswa", photo: "https://i.ibb.co.com/Y7XSrpnL/Mudita-Desca-Ardya-Pramesti.jpg/400/400" },
+];
+
+// --- TAMBAHAN PENTING (MOMENTS) ---
+export const MOMENTS = [
+  {
+    id: 1,
+    title: "Juara 1 Futsal Classmeet",
+    category: "Lomba",
+    date: "15 Des 2023",
+    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=600&auto=format&fit=crop",
+    description: "Pertandingan sengit lawan kelas sebelah, akhirnya menang dramatis lewat adu penalti."
+  },
+  {
+    id: 2,
+    title: "Bukber Angkatan",
+    category: "Acara",
+    date: "20 Mar 2024",
+    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=600&auto=format&fit=crop",
+    description: "Makan-makan bareng di rumah ketua kelas. Kenyang enggak, ketawanya iya."
+  },
+  {
+    id: 3,
+    title: "Study Tour Bali",
+    category: "Trip",
+    date: "5 Feb 2024",
+    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=600&auto=format&fit=crop",
+    description: "Foto wajib di Tanah Lot rame-rame satu kelas. Panas tapi seru banget!"
+  },
+  {
+    id: 4,
+    title: "Praktek Kimia",
+    category: "Sekolah",
+    date: "10 Jan 2024",
+    image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=600&auto=format&fit=crop",
+    description: "Niatnya bikin sabun, malah jadi busa satu laboratorium. Momen panik tapi lucu."
+  },
 ];
