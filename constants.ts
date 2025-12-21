@@ -74,7 +74,6 @@ export const STUDENTS: Person[] = [
   { id: "s29", name: "Mudita Desca Ardya Pramesti", role: "Siswa", photo: "https://i.ibb.co.com/Y7XSrpnL/Mudita-Desca-Ardya-Pramesti.jpg/400/400" },
 ];
 
-// --- TAMBAHAN PENTING (MOMENTS) ---
 export const MOMENTS = [
   {
     id: 1,
@@ -107,5 +106,44 @@ export const MOMENTS = [
     date: "10 Jan 2024",
     image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=600&auto=format&fit=crop",
     description: "Niatnya bikin sabun, malah jadi busa satu laboratorium. Momen panik tapi lucu."
+  },
+];
+
+// --- JADWAL PELAJARAN & PIKET (UPDATED) ---
+export const SCHEDULE = [
+  {
+    day: "Senin",
+    subjects: ["ASJ", "Mapel Pilihan (Teknologi AI)", "PKPJ"],
+    picket: ["Delia", "Giras", "Rizky F.", "Bagas", "Mardian", "Dzakwan"]
+  },
+  {
+    day: "Selasa",
+    subjects: ["B. Inggris", "PABP", "Matematika", "ASJ", "Literasi"],
+    picket: ["Della", "Alvian", "Akhdan", "Eki", "Adit M."]
+  },
+  {
+    day: "Rabu",
+    subjects: ["PPKN", "Pendalaman B. Indonesia", "Keamanan Jaringan", "Pendalaman Matematika"],
+    picket: ["Nasywa", "Destri", "Rizky Z.", "Adit P.", "Pahri", "Awan D."]
+  },
+  {
+    day: "Kamis",
+    subjects: ["ASJ", "B. Indonesia", "PJOK", "PKWH", "Pendalaman B. Inggris"],
+    picket: ["Chelsea", "Dinda", "Dita", "Roby", "Jhon", "Raga"]
+  },
+  {
+    day: "Jumat",
+    subjects: ["Kegiatan Non Akademik"],
+    picket: ["Holiana", "Kayla", "Ahmad", "Marchel", "Ridho", "Amirul"]
+  },
+  {
+    day: "Sabtu",
+    subjects: ["Rebahan Seharian", "Push Rank (Mabar)", "Scroll TikTok/IG", "Jalan-jalan (Kalau ada duit)"],
+    picket: ["Semua LIBUR!", "Jangan ganggu"]
+  },
+  {
+    day: "Minggu",
+    subjects: ["Nyuci Sepatu Sekolah", "Setrika Seragam", "Ngerjain PR (Sistem Kebut Semalam)", "Overthinking buat Besok"],
+    picket: ["Siapin Mental", "Cek Jadwal Besok"]
   },
 ];

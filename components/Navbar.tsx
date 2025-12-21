@@ -55,6 +55,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-1">
             <Link to="/" className={getNavClass('/')}>Beranda</Link>
             <Link to="/students" className={getNavClass('/students')}>Murid</Link>
+            <Link to="/schedule" className={getNavClass('/schedule')}>Jadwal</Link>
             <Link to="/gallery" className={getNavClass('/gallery')}>Galeri</Link>
             <Link to="/journey" className={getNavClass('/journey')}>The Journey</Link>
             <Link to="/guestbook" className={getNavClass('/guestbook')}>Guestbook</Link>
@@ -71,6 +72,7 @@ const Navbar: React.FC = () => {
         <div className="bg-[#020617] border-t border-white/5 p-4 space-y-2 shadow-2xl">
           <Link to="/" onClick={() => setIsOpen(false)} className={getNavClass('/', true)}>Beranda</Link>
           <Link to="/students" onClick={() => setIsOpen(false)} className={getNavClass('/students', true)}>Murid</Link>
+          <Link to="/schedule" onClick={() => setIsOpen(false)} className={getNavClass('/schedule', true)}>Jadwal</Link>
           <Link to="/gallery" onClick={() => setIsOpen(false)} className={getNavClass('/gallery', true)}>Galeri</Link>
           <Link to="/journey" onClick={() => setIsOpen(false)} className={getNavClass('/journey', true)}>The Journey</Link>
           <Link to="/guestbook" onClick={() => setIsOpen(false)} className={getNavClass('/guestbook', true)}>Guestbook</Link>
@@ -80,4 +82,3 @@ const Navbar: React.FC = () => {
   );
 };
 export default Navbar;
-

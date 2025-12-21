@@ -6,6 +6,7 @@ import Students from './pages/Students';
 import Journey from './pages/Journey';
 import Guestbook from './pages/Guestbook';
 import Gallery from './pages/Gallery';
+import Schedule from './pages/Schedule'; // Fitur Jadwal tetap ada
 import { CLASS_DATA } from './constants'; 
 import { X } from 'lucide-react'; 
 
@@ -27,9 +28,11 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home openLightbox={openLightbox} />} />
             <Route path="/students" element={<Students openLightbox={openLightbox} />} />
+            <Route path="/schedule" element={<Schedule />} />
             <Route path="/gallery" element={<Gallery openLightbox={openLightbox} />} />
             <Route path="/journey" element={<Journey />} />
             <Route path="/guestbook" element={<Guestbook />} />
+            {/* Playlist sudah dihapus dari sini */}
           </Routes>
         </div>
 
@@ -63,4 +66,3 @@ const App: React.FC = () => {
   );
 };
 export default App;
-
